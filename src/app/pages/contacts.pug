@@ -1,0 +1,8 @@
+.animate.fadeIn(ng-controller="SlickCtrl")
+	p.h1 Contacts
+
+	slick.slider.lazy(lazy-load='ondemand' slides-to-show='3' slides-to-scroll='3')
+
+		//.slide: img.img-responsive(data-lazy src='http://placehold.it/1600x600?text=Slide_02')
+		.slide(ng-repeat="image in images")
+			img.img-responsive(data-lazy src='{{ image.path }}')

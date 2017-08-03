@@ -1,0 +1,30 @@
+nav.navbar.navbar-default(bs-navbar)
+	.container
+
+		// Logo & mobile toggle menu
+		.navbar-header
+
+			// Toggle icon
+			button.navbar-toggle(type='button' data-toggle='collapse' data-target='#main-navbar-collapse')
+				span.sr-only Toggle navigation
+				span.icon-bar
+				span.icon-bar
+				span.icon-bar
+
+			// Logo
+			a.navbar-brand.navbar-logo(href='#')
+				| Logo
+
+		// Navbar collapse
+		.collapse.navbar-collapse#main-navbar-collapse
+
+			// Nav links
+			ul.nav.navbar-nav.navbar-right
+				li(data-match-route='/$')
+					a(href='/dist/') Home
+				li(data-match-route='/about'): a(href='about')
+					| About
+				li(data-match-route='/news'): a(href='news')
+					| News
+				li(data-match-route='/contacts'): a(href='contacts')
+					| Contacts

@@ -1,0 +1,17 @@
+doctype html
+html
+
+	// Head
+	include app/includes/head.pug
+
+	// Body
+	body(ng-app='myApp')
+
+		// Navbar
+		include app/shared/navbar.pug
+
+		// Pages Content
+		.container: ng-view Loading...
+
+		// Footer
+		include app/shared/footer.pug

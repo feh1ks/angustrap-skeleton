@@ -1,0 +1,11 @@
+{
+    "name": "gulp-skeleton",
+    "dependencies": {
+			"bootstrap": "latest",
+			"angular": "latest",
+			"angular-route": "latest",
+			"angular-strap": "2.3.8",
+			"slick-carousel": "latest",
+			"animate.css": "latest"
+		}
+}
