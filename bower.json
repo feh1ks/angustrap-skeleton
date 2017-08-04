@@ -6,6 +6,7 @@
 			"angular-route": "latest",
 			"angular-strap": "2.3.8",
 			"slick-carousel": "latest",
-			"animate.css": "latest"
+			"animate.css": "latest",
+			"ngMeta": "latest"
 		}
 }

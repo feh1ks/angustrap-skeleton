@@ -32,6 +32,7 @@ gulp.task('plugins', function() {
 									 'bower_components/angular-route/angular-route.min.js',
 									 'bower_components/angular-strap/dist/angular-strap.min.js',
 									 'bower_components/angular-strap/dist/angular-strap.tpl.min.js',
+									 'bower_components/ngMeta/dist/ngMeta.min.js',
 									 'bower_components/jquery/dist/jquery.min.js',
 									 'bower_components/bootstrap/dist/js/bootstrap.min.js',
 									 'bower_components/slick-carousel/slick/slick.min.js'

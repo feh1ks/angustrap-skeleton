@@ -4,7 +4,8 @@ head
 	meta(name='viewport' content='width=device-width, initial-scale=1')
 	base(href='/dist/')
 
-	title Title
+	title(ng-bind="ngMeta.title") myApp
+	meta(name='description', content='{{ ngMeta.description }}')
 
 	link(rel='shortcut icon' href='favicon.ico')
 	link(href='css/bootstrap.min.css' rel='stylesheet')
